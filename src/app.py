@@ -15,12 +15,12 @@ server = app.server
 
 t = np.linspace(0, 50, 1000)
 
-texto = 'No instante $t=0$, um tanqueee contém $Q_0$ kg de sal dissolvidos em $99 l$ de água. ' \
+texto = 'No instante $t=0$, um tanque contém $Q_0$ kg de sal dissolvidos em $100 l$ de água. ' \
         'Suponha que água contendo $\\frac{1}{4}$ kg de sal por litro está entrando no tanque' \
         ' a uma taxa de $r$ litros por minuto e que o líquido, bem misturado, está saindo' \
-        ' do tansque à mesma taxa. Seja $Q(t)$ a quantidade de sal no tempo $t$ e suponha ' \
+        ' do tanque à mesma taxa. Seja $Q(t)$ a quantidade de sal no tempo $t$ e suponha ' \
         ' que o sal não é criado nem destruído no tanque. Logo, temos a seguinte equação ' \
-        ' diferencial para a taxa de variação de sal no tanqueee:'
+        ' diferencial para a taxa de variação de sal no tanque:'
 
 formula = '$\\displaystyle  \\frac{dQ}{dt}= \\frac{r}{4} - \\frac{rQ}{100}$'
 

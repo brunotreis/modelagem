@@ -2,4 +2,4 @@ dash==2.8.1
 pandas
 gunicorn
 numpy
-scipy.integrate
+scipy
